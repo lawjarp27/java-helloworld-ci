@@ -3,7 +3,6 @@ name: Java CI with Maven and Security Scans
 on:
   push:
     branches: ["main"]
-
 jobs:
   maven:
     runs-on: ubuntu-latest
